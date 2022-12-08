@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh 
 
 DATASET_LINK="https://zenodo.org/record/6420886/files/dataset.zip?download=1"
 
@@ -37,7 +37,7 @@ if [ -d data/v1 ]; then
 fi
 
 mkdir data
-aria2c $DATASET_LINK -o data/dataset.zip
+aria2c DATASET_LINK -o data/dataset.zip
 unzip data/dataset.zip -d data/temp
 mv data/temp/dataset data/v1
 rm -rf data/temp
