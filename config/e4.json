@@ -1,0 +1,19 @@
+{
+  "sensors": {
+    "acc": {
+      "columns": ["acc_x", "acc_y", "acc_z"]
+    },
+    "bvp": {
+      "columns": ["bvp_ppg"]
+    },
+    "eda": {
+      "columns": ["eda"]
+    },
+    "hr": {
+      "columns": ["hr"]
+    },
+    "temp": {
+      "columns": ["temp"]
+    }
+  }
+}
