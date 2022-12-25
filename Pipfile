@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 envyaml = "*"
 pandas = "*"
+accelerometer = "*"
+tsfel = "*"
 
 [dev-packages]
 ipykernel = "*"
