@@ -6,6 +6,11 @@ name = "pypi"
 [packages]
 envyaml = "*"
 pandas = "*"
+heartpy = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+category-encoders = "*"
 
 [dev-packages]
 ipykernel = "*"
