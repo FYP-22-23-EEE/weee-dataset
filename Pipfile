@@ -8,6 +8,9 @@ envyaml = "*"
 pandas = "*"
 accelerometer = "*"
 tsfel = "*"
+scipy = "==1.8.1"
+tsfresh = "*"
+seaborn = "*"
 
 [dev-packages]
 ipykernel = "*"
